@@ -3,9 +3,7 @@ import java.util.Scanner;
 
 
 class  box{
-    int length;
-    int width;
-    int height;
+    
     int volume(int length, int width, int height){
         return length*width*height;
     }
