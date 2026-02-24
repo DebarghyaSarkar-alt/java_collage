@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 
 class Print {
+    
     void evenodd(){
         Scanner sc = new Scanner(System.in);
         int even = 0, odd = 0;

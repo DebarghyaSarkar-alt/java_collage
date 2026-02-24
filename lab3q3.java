@@ -15,7 +15,7 @@ class C extends A {
         System.out.println("Class C show()");
     }
 }
-
+//this is method overriding example
 public class lab3q3 {
     public static void main(String[] args) {
         A ref;

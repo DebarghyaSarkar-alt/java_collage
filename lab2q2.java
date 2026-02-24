@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class p {
     static int count = 0;
-
+    //constructor
     p() {
         count++;
     }
