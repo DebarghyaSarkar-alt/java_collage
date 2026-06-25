@@ -2,7 +2,7 @@
 abstract class student{
     int roll;
     int reg;
-    void getinput(int r, int re){
+    student(int r, int re){
         roll = r;
         reg = re;   
 
@@ -10,7 +10,9 @@ abstract class student{
     abstract void abstractcourse();
 }
 class kiitian extends student{
-    
+    kiitian(int r, int re){
+        super(r, re);
+    }
     void abstractcourse(){
         System.out.println("ROLL NO: " + roll);
         System.out.println("REG NO: " + reg);
@@ -20,8 +22,7 @@ class kiitian extends student{
 
 public class lab4_1 {
     public static void main(String[] args) {
-        kiitian k = new kiitian();
-        k.getinput(123, 456789);
+        kiitian k = new kiitian(123, 456789);
         k.abstractcourse();
     }
 }
